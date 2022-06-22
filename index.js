@@ -194,25 +194,25 @@
 
 // -------------------------------------------------------------------------------  yil hisoblovchi ---------------------------------------------------------------- //
 
-confirm( 'Yil kiriting kiritgan yilingiz ichida necha oy, necha hafta, necha kun bor ekanligini hisoblab beradi : ) ' )
-let input = +prompt( 'Yil kiriting: ' );
-let month = input * 12;
-let week = input * 52;
-let day = input * 365;
-let hours = input * 8760;
-let a = ' yilda ';
-let b = ' oy ';
-let c = ' hafta ';
-let d = ' kun va ';
-let e = ' soat bor.'
-let all = input + a + month + b + week + c + day +d + hours + e;
-if (input) {
-    document.write(`<h4>${all}</h4>`);
-}
-else {
-    alert('Something went wrong :( Try again')
-    document.write( `<h3>${'Error. Try again!'}</h3>` )
-}
+// confirm( 'Yil kiriting kiritgan yilingiz ichida necha oy, necha hafta, necha kun bor ekanligini hisoblab beradi : ) ' )
+// let input = +prompt( 'Yil kiriting: ' );
+// let month = input * 12;
+// let week = input * 52;
+// let day = input * 365;
+// let hours = input * 8760;
+// let a = ' yilda ';
+// let b = ' oy ';
+// let c = ' hafta ';
+// let d = ' kun va ';
+// let e = ' soat bor.'
+// let all = input + a + month + b + week + c + day +d + hours + e;
+// if (input) {
+//     document.write(`<h4>${all}</h4>`);
+// }
+// else {
+//     alert('Something went wrong :( Try again')
+//     document.write( `<h3>${'Error. Try again!'}</h3>` )
+// }
 
 // ---------------------------------------------------------------------- juft yoki toq son hisoblovchi ---------------------------------------------------------------- //
 
@@ -244,3 +244,17 @@ else {
 
 // }); 
 
+
+
+// let c = 7 + 9;
+// function functionWithArgs(a, b) {
+//   console.log(1 + 2)
+//   // cobsole.log(7 + 9)
+// }
+// functionWithArgs()
+
+box.forEach(element => {
+	element.addEventListener("click", () => {
+		head.style.color = "red";
+	});
+});
